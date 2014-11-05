@@ -54,7 +54,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-3">
-            LEVELING APP © 2014 
+            LEVELING APP © <?php echo "hello" . date("Y"); ?> 
           </div>
 
           <div class="col-xs-9 text-right">
