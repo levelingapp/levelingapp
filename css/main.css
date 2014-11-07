@@ -8097,3 +8097,8 @@ button.close {
   background-color: #505050;
   color: #7ac9ed;
 }
+
+/* line 73, ../assets/sass/main.scss */
+.promo-circles {
+  margin-top: 50px;
+}
