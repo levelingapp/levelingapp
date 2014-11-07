@@ -8069,7 +8069,7 @@ button.close {
 .promo {
   background: url("../images/cover.jpg");
   background-size: cover;
-  height: 300px;
+  height: 400px;
   color: #f5f5f5;
   text-shadow: 2px 2px #1b1b1b;
 }
@@ -8081,4 +8081,19 @@ button.close {
 /* line 56, ../assets/sass/main.scss */
 .main-content {
   margin-top: 50px;
+}
+
+/* line 60, ../assets/sass/main.scss */
+.btn-header {
+  margin: 8px;
+  font-weight: bold;
+  background-color: #373737;
+  color: #7ac9ed;
+  width: 100px;
+}
+
+/* line 68, ../assets/sass/main.scss */
+.btn-header:hover {
+  background-color: #505050;
+  color: #7ac9ed;
 }
