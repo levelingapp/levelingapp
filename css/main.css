@@ -8077,3 +8077,8 @@ button.close {
 .promo h1 {
   font-weight: 700;
 }
+
+/* line 56, ../assets/sass/main.scss */
+.main-content {
+  margin-top: 50px;
+}
