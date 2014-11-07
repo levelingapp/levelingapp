@@ -8102,3 +8102,68 @@ button.close {
 .promo-circles {
   margin-top: 50px;
 }
+
+@media (max-width: 767px) {
+  /* line 81, ../assets/sass/main.scss */
+  .xs-text-center {
+    text-align: center;
+  }
+
+  /* line 84, ../assets/sass/main.scss */
+  .xs-text-right {
+    text-align: right;
+  }
+
+  /* line 87, ../assets/sass/main.scss */
+  .xs-text-left {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  /* line 94, ../assets/sass/main.scss */
+  .sm-text-center {
+    text-align: center;
+  }
+
+  /* line 97, ../assets/sass/main.scss */
+  .sm-text-right {
+    text-align: right;
+  }
+
+  /* line 100, ../assets/sass/main.scss */
+  .sm-text-left {
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  /* line 108, ../assets/sass/main.scss */
+  .md-text-center {
+    text-align: center;
+  }
+
+  /* line 111, ../assets/sass/main.scss */
+  .md-text-right {
+    text-align: right;
+  }
+
+  /* line 114, ../assets/sass/main.scss */
+  .md-text-left {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 122, ../assets/sass/main.scss */
+  .lg-text-center {
+    text-align: center;
+  }
+
+  /* line 125, ../assets/sass/main.scss */
+  .lg-text-right {
+    text-align: right;
+  }
+
+  /* line 128, ../assets/sass/main.scss */
+  .lg-text-left {
+    text-align: left;
+  }
+}
