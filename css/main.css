@@ -1452,7 +1452,6 @@ img {
 
 /* line 81, ../assets/sass/bootstrap/_scaffolding.scss */
 .img-responsive {
-  display: block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
@@ -1473,7 +1472,6 @@ img {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  display: inline-block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
@@ -6047,7 +6045,6 @@ a.badge:hover, a.badge:focus {
 /* line 18, ../assets/sass/bootstrap/_thumbnails.scss */
 .thumbnail > img,
 .thumbnail a > img {
-  display: block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
@@ -7472,7 +7469,6 @@ button.close {
 /* line 23, ../assets/sass/bootstrap/_carousel.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
   width: 100% \9;
   max-width: 100%;
   height: auto;
