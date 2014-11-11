@@ -8100,71 +8100,83 @@ button.close {
   color: #7ac9ed;
 }
 
-/* line 79, ../assets/sass/main.scss */
+/* line 78, ../assets/sass/main.scss */
+.btn-signup {
+  background-color: #7ac9ed;
+  color: #fff;
+}
+
+/* line 83, ../assets/sass/main.scss */
+.btn-signup:hover, .btn-signup:focus {
+  background-color: #6cbbdf;
+  color: #fff;
+}
+
+/* line 89, ../assets/sass/main.scss */
 .promo-circles {
   margin-top: 50px;
 }
 
 @media (max-width: 767px) {
-  /* line 87, ../assets/sass/main.scss */
+  /* line 97, ../assets/sass/main.scss */
   .xs-text-center {
     text-align: center;
   }
 
-  /* line 90, ../assets/sass/main.scss */
+  /* line 100, ../assets/sass/main.scss */
   .xs-text-right {
     text-align: right;
   }
 
-  /* line 93, ../assets/sass/main.scss */
+  /* line 103, ../assets/sass/main.scss */
   .xs-text-left {
     text-align: left;
   }
 }
 @media (min-width: 768px) {
-  /* line 100, ../assets/sass/main.scss */
+  /* line 110, ../assets/sass/main.scss */
   .sm-text-center {
     text-align: center;
   }
 
-  /* line 103, ../assets/sass/main.scss */
+  /* line 113, ../assets/sass/main.scss */
   .sm-text-right {
     text-align: right;
   }
 
-  /* line 106, ../assets/sass/main.scss */
+  /* line 116, ../assets/sass/main.scss */
   .sm-text-left {
     text-align: left;
   }
 }
 @media (min-width: 992px) {
-  /* line 114, ../assets/sass/main.scss */
+  /* line 124, ../assets/sass/main.scss */
   .md-text-center {
     text-align: center;
   }
 
-  /* line 117, ../assets/sass/main.scss */
+  /* line 127, ../assets/sass/main.scss */
   .md-text-right {
     text-align: right;
   }
 
-  /* line 120, ../assets/sass/main.scss */
+  /* line 130, ../assets/sass/main.scss */
   .md-text-left {
     text-align: left;
   }
 }
 @media (min-width: 1200px) {
-  /* line 128, ../assets/sass/main.scss */
+  /* line 138, ../assets/sass/main.scss */
   .lg-text-center {
     text-align: center;
   }
 
-  /* line 131, ../assets/sass/main.scss */
+  /* line 141, ../assets/sass/main.scss */
   .lg-text-right {
     text-align: right;
   }
 
-  /* line 134, ../assets/sass/main.scss */
+  /* line 144, ../assets/sass/main.scss */
   .lg-text-left {
     text-align: left;
   }
