@@ -5463,11 +5463,11 @@ tbody.collapse.in {
 }
 /* line 398, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: white;
 }
 /* line 401, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #e6e6e6;
   background-color: transparent;
 }
 /* line 407, ../assets/sass/bootstrap/_navbar.scss */
@@ -5476,7 +5476,7 @@ tbody.collapse.in {
 }
 /* line 412, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: white;
 }
 /* line 416, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -5518,7 +5518,7 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   /* line 470, ../assets/sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: white;
   }
   /* line 473, ../assets/sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5538,7 +5538,7 @@ tbody.collapse.in {
 }
 /* line 503, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #777777;
+  color: white;
 }
 /* line 505, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
@@ -5546,7 +5546,7 @@ tbody.collapse.in {
 }
 /* line 510, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
-  color: #777777;
+  color: white;
 }
 /* line 513, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
@@ -5564,7 +5564,7 @@ tbody.collapse.in {
 }
 /* line 532, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
-  color: #777777;
+  color: white;
 }
 /* line 535, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -5577,7 +5577,7 @@ tbody.collapse.in {
 }
 /* line 546, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #777777;
+  color: white;
 }
 /* line 550, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -5627,7 +5627,7 @@ tbody.collapse.in {
   }
   /* line 610, ../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: white;
   }
   /* line 613, ../assets/sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5647,7 +5647,7 @@ tbody.collapse.in {
 }
 /* line 638, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
-  color: #777777;
+  color: white;
 }
 /* line 640, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
@@ -5655,7 +5655,7 @@ tbody.collapse.in {
 }
 /* line 645, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
-  color: #777777;
+  color: white;
 }
 /* line 648, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
