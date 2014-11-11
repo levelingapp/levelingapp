@@ -65,10 +65,16 @@
 	width: 100px;
 }
 
+.btn-header:focus{
+	background-color: #505050;
+	color: #7ac9ed;
+}
+
 .btn-header:hover{
 	background-color: #505050;
 	color: #7ac9ed;
 }
+
 
 .promo-circles{
 	margin-top: 50px;
