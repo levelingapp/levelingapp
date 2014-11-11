@@ -5569,7 +5569,7 @@ tbody.collapse.in {
 /* line 535, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: white;
-  background-color: transparent;
+  background-color: black;
 }
 /* line 541, ../assets/sass/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-text {
