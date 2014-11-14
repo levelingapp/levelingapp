@@ -114,6 +114,31 @@
 }
 
 
+// INDEX LIST OF GAMES
+.list-of-games{
+	padding-left: 0px;
+	 list-style-type: none;
+}
+
+.list-of-games li{
+	padding: 3px;
+}
+
+.list-of-games li:hover{
+	background-color: #DADADA;
+}
+
+
+.list-of-games img{
+	margin-right: 10px;
+}
+
+.list-of-games--rating{
+	font-weight: bold;
+	color: #286C8F;
+}
+
+
 @media (max-width: $screen-xs-max) {
 	.xs-text-center{
 		text-align: center;

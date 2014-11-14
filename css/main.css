@@ -8141,66 +8141,93 @@ button.close {
   font-size: 18px;
 }
 
+/* line 118, ../assets/sass/main.scss */
+.list-of-games {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+/* line 123, ../assets/sass/main.scss */
+.list-of-games li {
+  padding: 3px;
+}
+
+/* line 127, ../assets/sass/main.scss */
+.list-of-games li:hover {
+  background-color: #DADADA;
+}
+
+/* line 132, ../assets/sass/main.scss */
+.list-of-games img {
+  margin-right: 10px;
+}
+
+/* line 136, ../assets/sass/main.scss */
+.list-of-games--rating {
+  font-weight: bold;
+  color: #286C8F;
+}
+
 @media (max-width: 767px) {
-  /* line 118, ../assets/sass/main.scss */
+  /* line 143, ../assets/sass/main.scss */
   .xs-text-center {
     text-align: center;
   }
 
-  /* line 121, ../assets/sass/main.scss */
+  /* line 146, ../assets/sass/main.scss */
   .xs-text-right {
     text-align: right;
   }
 
-  /* line 124, ../assets/sass/main.scss */
+  /* line 149, ../assets/sass/main.scss */
   .xs-text-left {
     text-align: left;
   }
 }
 @media (min-width: 768px) {
-  /* line 131, ../assets/sass/main.scss */
+  /* line 156, ../assets/sass/main.scss */
   .sm-text-center {
     text-align: center;
   }
 
-  /* line 134, ../assets/sass/main.scss */
+  /* line 159, ../assets/sass/main.scss */
   .sm-text-right {
     text-align: right;
   }
 
-  /* line 137, ../assets/sass/main.scss */
+  /* line 162, ../assets/sass/main.scss */
   .sm-text-left {
     text-align: left;
   }
 }
 @media (min-width: 992px) {
-  /* line 145, ../assets/sass/main.scss */
+  /* line 170, ../assets/sass/main.scss */
   .md-text-center {
     text-align: center;
   }
 
-  /* line 148, ../assets/sass/main.scss */
+  /* line 173, ../assets/sass/main.scss */
   .md-text-right {
     text-align: right;
   }
 
-  /* line 151, ../assets/sass/main.scss */
+  /* line 176, ../assets/sass/main.scss */
   .md-text-left {
     text-align: left;
   }
 }
 @media (min-width: 1200px) {
-  /* line 159, ../assets/sass/main.scss */
+  /* line 184, ../assets/sass/main.scss */
   .lg-text-center {
     text-align: center;
   }
 
-  /* line 162, ../assets/sass/main.scss */
+  /* line 187, ../assets/sass/main.scss */
   .lg-text-right {
     text-align: right;
   }
 
-  /* line 165, ../assets/sass/main.scss */
+  /* line 190, ../assets/sass/main.scss */
   .lg-text-left {
     text-align: left;
   }
