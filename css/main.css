@@ -8028,7 +8028,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../assets/sass/_header.scss */
+/* line 2, ../assets/sass/_header.scss */
 .btn-header {
   margin: 8px;
   font-weight: bold;
@@ -8036,32 +8036,29 @@ button.close {
   color: #7ac9ed;
   width: 100px;
 }
-
 /* line 9, ../assets/sass/_header.scss */
-.btn-header:focus {
+.btn-header :focus {
   background-color: #505050;
   color: #7ac9ed;
 }
-
 /* line 14, ../assets/sass/_header.scss */
-.btn-header:hover {
+.btn-header :hover {
   background-color: #505050;
   color: #7ac9ed;
 }
 
-/* line 19, ../assets/sass/_header.scss */
+/* line 21, ../assets/sass/_header.scss */
 .btn-signup {
   background-color: #7ac9ed;
   color: #fff;
 }
-
-/* line 24, ../assets/sass/_header.scss */
-.btn-signup:hover, .btn-signup:focus {
+/* line 25, ../assets/sass/_header.scss */
+.btn-signup :hover, .btn-signup :focus {
   background-color: #6cbbdf;
   color: #fff;
 }
 
-/* line 29, ../assets/sass/_header.scss */
+/* line 33, ../assets/sass/_header.scss */
 .promo-circles {
   margin-top: 50px;
 }
@@ -8079,47 +8076,44 @@ button.close {
   font-weight: 700;
 }
 
-/* line 15, ../assets/sass/_index.scss */
+/* line 13, ../assets/sass/_index.scss */
 .index-maximum-fun {
   background-color: #DADADA;
   text-align: center;
   padding: 30px 0px;
 }
-/* line 20, ../assets/sass/_index.scss */
+/* line 18, ../assets/sass/_index.scss */
 .index-maximum-fun h2 {
   margin-top: 0px;
   font-weight: bold;
   font-size: 35px;
 }
-/* line 26, ../assets/sass/_index.scss */
+/* line 24, ../assets/sass/_index.scss */
 .index-maximum-fun h3 {
   margin-top: 0px;
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 35, ../assets/sass/_index.scss */
+/* line 33, ../assets/sass/_index.scss */
 .list-of-games {
   padding-left: 0px;
   list-style-type: none;
 }
-
-/* line 40, ../assets/sass/_index.scss */
+/* line 37, ../assets/sass/_index.scss */
 .list-of-games li {
   padding: 3px;
 }
-
-/* line 44, ../assets/sass/_index.scss */
-.list-of-games li:hover {
+/* line 40, ../assets/sass/_index.scss */
+.list-of-games li :hover {
   background-color: #DADADA;
 }
-
-/* line 49, ../assets/sass/_index.scss */
+/* line 45, ../assets/sass/_index.scss */
 .list-of-games img {
   margin-right: 10px;
 }
 
-/* line 53, ../assets/sass/_index.scss */
+/* line 50, ../assets/sass/_index.scss */
 .list-of-games--rating {
   font-weight: bold;
   color: #286C8F;

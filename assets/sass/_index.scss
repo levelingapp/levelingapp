@@ -10,8 +10,6 @@
 	}
 }
 
-
-
 .index-maximum-fun{
 	background-color: #DADADA;
 	text-align: center;
@@ -35,19 +33,18 @@
 .list-of-games{
 	padding-left: 0px;
 	list-style-type: none;
-}
+		
+	li{
+		padding: 3px;
+		
+		:hover{
+			background-color: #DADADA;
+		}
+	}
 
-.list-of-games li{
-	padding: 3px;
-}
-
-.list-of-games li:hover{
-	background-color: #DADADA;
-}
-
-
-.list-of-games img{
-	margin-right: 10px;
+	img{
+		margin-right: 10px;
+	}
 }
 
 .list-of-games--rating{

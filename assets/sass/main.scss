@@ -20,11 +20,11 @@
 }
 
 .content{
-	background-color: #f0f0f0
+	background-color: $content-bg-color;
 }
 
 .dark-bg{
-	background-color: #282828;
+	background-color: $dark-bg-background-color;
 	padding: 15px 0px;
 
 	.container{
