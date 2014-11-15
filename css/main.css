@@ -8028,58 +8028,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, ../assets/sass/main.scss */
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* line 11, ../assets/sass/main.scss */
-.container .row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-/* line 17, ../assets/sass/main.scss */
-.content {
-  background-color: #f0f0f0;
-}
-
-/* line 29, ../assets/sass/main.scss */
-.dark-bg {
-  background-color: #282828;
-  padding: 15px 0px;
-}
-/* line 33, ../assets/sass/main.scss */
-.dark-bg .container {
-  background-color: transparent;
-  color: #f0f0f0;
-  font-size: 10px;
-}
-/* line 39, ../assets/sass/main.scss */
-.dark-bg a {
-  color: #7ac9ed;
-}
-
-/* line 44, ../assets/sass/main.scss */
-.promo {
-  background: url("../images/cover.jpg");
-  background-size: cover;
-  height: 400px;
-  color: #f5f5f5;
-  text-shadow: 2px 2px #1b1b1b;
-}
-/* line 51, ../assets/sass/main.scss */
-.promo h1 {
-  font-weight: 700;
-}
-
-/* line 56, ../assets/sass/main.scss */
-.main-content {
-  margin-top: 50px;
-}
-
-/* line 60, ../assets/sass/main.scss */
+/* line 1, ../assets/sass/_header.scss */
 .btn-header {
   margin: 8px;
   font-weight: bold;
@@ -8088,146 +8037,197 @@ button.close {
   width: 100px;
 }
 
-/* line 68, ../assets/sass/main.scss */
+/* line 9, ../assets/sass/_header.scss */
 .btn-header:focus {
   background-color: #505050;
   color: #7ac9ed;
 }
 
-/* line 73, ../assets/sass/main.scss */
+/* line 14, ../assets/sass/_header.scss */
 .btn-header:hover {
   background-color: #505050;
   color: #7ac9ed;
 }
 
-/* line 78, ../assets/sass/main.scss */
+/* line 19, ../assets/sass/_header.scss */
 .btn-signup {
   background-color: #7ac9ed;
   color: #fff;
 }
 
-/* line 83, ../assets/sass/main.scss */
+/* line 24, ../assets/sass/_header.scss */
 .btn-signup:hover, .btn-signup:focus {
   background-color: #6cbbdf;
   color: #fff;
 }
 
-/* line 89, ../assets/sass/main.scss */
+/* line 29, ../assets/sass/_header.scss */
 .promo-circles {
   margin-top: 50px;
 }
 
-/* line 94, ../assets/sass/main.scss */
-.space-vertical-20 {
-  margin: 20px 0px;
+/* line 1, ../assets/sass/_index.scss */
+.promo {
+  background: url("../images/cover.jpg");
+  background-size: cover;
+  height: 400px;
+  color: #f5f5f5;
+  text-shadow: 2px 2px #1b1b1b;
+}
+/* line 8, ../assets/sass/_index.scss */
+.promo h1 {
+  font-weight: 700;
 }
 
-/* line 98, ../assets/sass/main.scss */
+/* line 15, ../assets/sass/_index.scss */
 .index-maximum-fun {
   background-color: #DADADA;
   text-align: center;
   padding: 30px 0px;
 }
-/* line 103, ../assets/sass/main.scss */
+/* line 20, ../assets/sass/_index.scss */
 .index-maximum-fun h2 {
   margin-top: 0px;
   font-weight: bold;
   font-size: 35px;
 }
-/* line 109, ../assets/sass/main.scss */
+/* line 26, ../assets/sass/_index.scss */
 .index-maximum-fun h3 {
   margin-top: 0px;
   font-weight: bold;
   font-size: 18px;
 }
 
-/* line 118, ../assets/sass/main.scss */
+/* line 35, ../assets/sass/_index.scss */
 .list-of-games {
   padding-left: 0px;
   list-style-type: none;
 }
 
-/* line 123, ../assets/sass/main.scss */
+/* line 40, ../assets/sass/_index.scss */
 .list-of-games li {
   padding: 3px;
 }
 
-/* line 127, ../assets/sass/main.scss */
+/* line 44, ../assets/sass/_index.scss */
 .list-of-games li:hover {
   background-color: #DADADA;
 }
 
-/* line 132, ../assets/sass/main.scss */
+/* line 49, ../assets/sass/_index.scss */
 .list-of-games img {
   margin-right: 10px;
 }
 
-/* line 136, ../assets/sass/main.scss */
+/* line 53, ../assets/sass/_index.scss */
 .list-of-games--rating {
   font-weight: bold;
   color: #286C8F;
 }
 
+/* line 10, ../assets/sass/main.scss */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 16, ../assets/sass/main.scss */
+.container .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 22, ../assets/sass/main.scss */
+.content {
+  background-color: #f0f0f0;
+}
+
+/* line 26, ../assets/sass/main.scss */
+.dark-bg {
+  background-color: #282828;
+  padding: 15px 0px;
+}
+/* line 30, ../assets/sass/main.scss */
+.dark-bg .container {
+  background-color: transparent;
+  color: #f0f0f0;
+  font-size: 10px;
+}
+/* line 36, ../assets/sass/main.scss */
+.dark-bg a {
+  color: #7ac9ed;
+}
+
+/* line 42, ../assets/sass/main.scss */
+.main-content {
+  margin-top: 50px;
+}
+
+/* line 46, ../assets/sass/main.scss */
+.space-vertical-20 {
+  margin: 20px 0px;
+}
+
 @media (max-width: 767px) {
-  /* line 143, ../assets/sass/main.scss */
+  /* line 3, ../assets/sass/_mixins.scss */
   .xs-text-center {
     text-align: center;
   }
 
-  /* line 146, ../assets/sass/main.scss */
+  /* line 6, ../assets/sass/_mixins.scss */
   .xs-text-right {
     text-align: right;
   }
 
-  /* line 149, ../assets/sass/main.scss */
+  /* line 9, ../assets/sass/_mixins.scss */
   .xs-text-left {
     text-align: left;
   }
 }
 @media (min-width: 768px) {
-  /* line 156, ../assets/sass/main.scss */
+  /* line 3, ../assets/sass/_mixins.scss */
   .sm-text-center {
     text-align: center;
   }
 
-  /* line 159, ../assets/sass/main.scss */
+  /* line 6, ../assets/sass/_mixins.scss */
   .sm-text-right {
     text-align: right;
   }
 
-  /* line 162, ../assets/sass/main.scss */
+  /* line 9, ../assets/sass/_mixins.scss */
   .sm-text-left {
     text-align: left;
   }
 }
 @media (min-width: 992px) {
-  /* line 170, ../assets/sass/main.scss */
+  /* line 3, ../assets/sass/_mixins.scss */
   .md-text-center {
     text-align: center;
   }
 
-  /* line 173, ../assets/sass/main.scss */
+  /* line 6, ../assets/sass/_mixins.scss */
   .md-text-right {
     text-align: right;
   }
 
-  /* line 176, ../assets/sass/main.scss */
+  /* line 9, ../assets/sass/_mixins.scss */
   .md-text-left {
     text-align: left;
   }
 }
 @media (min-width: 1200px) {
-  /* line 184, ../assets/sass/main.scss */
+  /* line 3, ../assets/sass/_mixins.scss */
   .lg-text-center {
     text-align: center;
   }
 
-  /* line 187, ../assets/sass/main.scss */
+  /* line 6, ../assets/sass/_mixins.scss */
   .lg-text-right {
     text-align: right;
   }
 
-  /* line 190, ../assets/sass/main.scss */
+  /* line 9, ../assets/sass/_mixins.scss */
   .lg-text-left {
     text-align: left;
   }

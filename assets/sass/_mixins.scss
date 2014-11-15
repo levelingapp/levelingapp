@@ -1,0 +1,12 @@
+//align text depending of port size
+@mixin xx-text-align($size) {
+	.#{$size}-text-center{
+		text-align: center;
+	}
+	.#{$size}-text-right{
+		text-align: right;
+	}
+	.#{$size}-text-left{
+		text-align: left;
+	}
+}

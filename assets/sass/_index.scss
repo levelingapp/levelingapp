@@ -1,0 +1,56 @@
+.promo{
+	background: url("../images/cover.jpg");
+	background-size: cover;
+	height: 400px;
+	color: #f5f5f5;
+	text-shadow: 2px 2px #1b1b1b;
+	
+	h1{
+		font-weight: 700;
+	}
+}
+
+
+
+.index-maximum-fun{
+	background-color: #DADADA;
+	text-align: center;
+	padding: 30px 0px;
+
+	h2{
+		margin-top: 0px;
+		font-weight: bold;
+		font-size: 35px;
+	}
+
+	h3{
+		margin-top: 0px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+}
+
+
+// INDEX LIST OF GAMES
+.list-of-games{
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.list-of-games li{
+	padding: 3px;
+}
+
+.list-of-games li:hover{
+	background-color: #DADADA;
+}
+
+
+.list-of-games img{
+	margin-right: 10px;
+}
+
+.list-of-games--rating{
+	font-weight: bold;
+	color: #286C8F;
+}

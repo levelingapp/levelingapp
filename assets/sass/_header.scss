@@ -1,0 +1,31 @@
+.btn-header{
+	margin: 8px;
+	font-weight: bold;
+	background-color: #373737;
+	color: #7ac9ed;
+	width: 100px;
+}
+
+.btn-header:focus{
+	background-color: #505050;
+	color: #7ac9ed;
+}
+
+.btn-header:hover{
+	background-color: #505050;
+	color: #7ac9ed;
+}
+
+.btn-signup{
+	background-color: #7ac9ed;
+	color: #fff;
+}
+
+.btn-signup:hover, .btn-signup:focus{
+	background-color: #6cbbdf;
+	color: #fff;
+}
+
+.promo-circles{
+	margin-top: 50px;
+}
