@@ -8037,12 +8037,12 @@ button.close {
   width: 100px;
 }
 /* line 9, ../assets/sass/_header.scss */
-.btn-header :focus {
+.btn-header:focus {
   background-color: #505050;
   color: #7ac9ed;
 }
 /* line 14, ../assets/sass/_header.scss */
-.btn-header :hover {
+.btn-header:hover {
   background-color: #505050;
   color: #7ac9ed;
 }
@@ -8053,7 +8053,7 @@ button.close {
   color: #fff;
 }
 /* line 25, ../assets/sass/_header.scss */
-.btn-signup :hover, .btn-signup :focus {
+.btn-signup:hover, .btn-signup:focus {
   background-color: #6cbbdf;
   color: #fff;
 }
@@ -8105,7 +8105,7 @@ button.close {
   padding: 3px;
 }
 /* line 40, ../assets/sass/_index.scss */
-.list-of-games li :hover {
+.list-of-games li:hover {
   background-color: #DADADA;
 }
 /* line 45, ../assets/sass/_index.scss */

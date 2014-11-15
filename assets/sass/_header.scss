@@ -6,12 +6,12 @@
 	color: #7ac9ed;
 	width: 100px;
 	
-	:focus{
+	&:focus{
 		background-color: #505050;
 		color: #7ac9ed;
 	}
 	
-	:hover{
+	&:hover{
 		background-color: #505050;
 		color: #7ac9ed;
 	}
@@ -22,7 +22,7 @@
 	background-color: #7ac9ed;
 	color: #fff;
 	
-	:hover, :focus{
+	&:hover, &:focus{
 		background-color: #6cbbdf;
 		color: #fff;
 	}
