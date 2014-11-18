@@ -8125,12 +8125,6 @@ button.close {
   margin-right: 0;
 }
 
-/* line 16, ../assets/sass/main.scss */
-.container .row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 /* line 22, ../assets/sass/main.scss */
 .content {
   background-color: #f0f0f0;

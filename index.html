@@ -19,10 +19,22 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    
+	
 
   </head>
   <body>
+  
+	<!-- Facebook -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=113934698671823";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook ENDS -->
+  
 
     <header class="">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -40,7 +52,7 @@
 				<ul class="nav navbar-nav">
 
 					<li class="dropdown">
-						<a  class="dropdown-toggle" data-toggle="dropdown" href="#games">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#games">
 							<i class="fa fa-gamepad fa-lg"></i>
 						</a>
 						<ul class="dropdown-menu" role="menu">
@@ -81,9 +93,9 @@
     </header>
 
 
-    <div class="container main-content">
+    <div class="container main-content promo">
       <div class="row">
-        <div class="col-xs-12 promo text-center">
+        <div class="col-xs-12 text-center">
           <h1>Maximum Fun In One Place</h1>
           
           <div class="row promo-circles">
@@ -112,11 +124,11 @@
   	<div class="container content">
       <div class="row space-vertical-20">
         
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-md-8">
           <img class="img-responsive" src="images/slide_01.jpg">
         </div>
 
-        <div class="col-xs-4">
+        <div class="col-xs-4  visible-lg-block">
           <div class="sidebar-ad">
   		      <img src="images/300x250.png" />
           </div>
@@ -138,66 +150,66 @@
 
     <div class="container content">
       <div class="row space-vertical-20">
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-md-8">
          <div class="row ">
 			 
-			 <div class="col-xs-6">
+			 <div class="col-xs-12 col-md-6">
 				<h3>Action</h3>
 				<ul class="list-of-games">
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-01.png" />
 							Bloons TD 5
 						</a>
 						</div>
-						<div class="col-xs-2">
+						<div class="col-xs-3 text-right">
 							<span class="text-right list-of-games--rating">8/10</span>
 						</div>
 					</li>
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-02.png" />
 							Kingdom Rush 
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">7/10</span>
 					  </div>
 					</li>
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-03.png" />
-							Kingdom Rush Frontiers
+							Kingdom Rush Fro...
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">9/10</span>
 					  </div>
 					</li>
 					
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-04.png" />
-							The King's League: Odyssey
+							The King's League...  <!-- The King's League...yssey -->
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">8/10</span>
 					  </div>
 					</li>
 					
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-05.png" />
-							Cursed Treasure: Don't Touch <!-- Cursed Treasure: Don't Touch My Gems! -->
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">10/10</span>
 					  </div>
 					</li>
@@ -206,75 +218,349 @@
 				</ul>
 			  </div>
 
-			  <div class="col-xs-6">
+			  <div class="col-xs-12 col-md-6">
 				<h3>Arcade</h3>
 
 				<ul class="list-of-games">
 				  <li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-01.png" />
 							Bloons TD 5
 						</a>
 						</div>
-						<div class="col-xs-2">
+						<div class="col-xs-3 text-right">
 							<span class="text-right list-of-games--rating">8/10</span>
 						</div>
 					</li>
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-02.png" />
 							Kingdom Rush 
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">7/10</span>
 					  </div>
 					</li>
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-03.png" />
-							Kingdom Rush Frontiers
+							Kingdom Rush Fro...
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">9/10</span>
 					  </div>
 					</li>
 					
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-04.png" />
-							The King's League: Odyssey
+							The King's League...  <!-- The King's League...yssey -->
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">8/10</span>
 					  </div>
 					</li>
 					
 					<li class="row">
-					  <div class="col-xs-10">
+					  <div class="col-xs-9">
 						<a href="#">
 							<img src="images/game-icon-05.png" />
-							Cursed Treasure: Don't Touch <!-- Cursed Treasure: Don't Touch My Gems! -->
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
 						</a>
 					  </div>
-					  <div class="col-xs-2">
+					  <div class="col-xs-3 text-right">
 						<span class="text-right list-of-games--rating">10/10</span>
 					  </div>
 					</li>
 
 				</ul>
 			  </div>
-			</div>
+			</div> <!-- row ends -->
+			
+			
+			<div class="row ">
+			 
+			 <div class="col-xs-12 col-md-6">
+				<h3>Adventure & RPG</h3>
+				<ul class="list-of-games">
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-01.png" />
+							Bloons TD 5
+						</a>
+						</div>
+						<div class="col-xs-3 text-right">
+							<span class="text-right list-of-games--rating">8/10</span>
+						</div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-02.png" />
+							Kingdom Rush 
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">7/10</span>
+					  </div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-03.png" />
+							Kingdom Rush Fro...
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">9/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-04.png" />
+							The King's League...  <!-- The King's League...yssey -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">8/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-05.png" />
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">10/10</span>
+					  </div>
+					</li>
+
+
+				</ul>
+			  </div>
+
+			  <div class="col-xs-12 col-md-6">
+				<h3>Multiplayer</h3>
+
+				<ul class="list-of-games">
+				  <li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-01.png" />
+							Bloons TD 5
+						</a>
+						</div>
+						<div class="col-xs-3 text-right">
+							<span class="text-right list-of-games--rating">8/10</span>
+						</div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-02.png" />
+							Kingdom Rush 
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">7/10</span>
+					  </div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-03.png" />
+							Kingdom Rush Fro...
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">9/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-04.png" />
+							The King's League...  <!-- The King's League...yssey -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">8/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-05.png" />
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">10/10</span>
+					  </div>
+					</li>
+
+				</ul>
+			  </div>
+			</div> <!-- row ends -->
+			
+			
+			<div class="row ">
+			 
+			 <div class="col-xs-12 col-md-6">
+				<h3>Sport</h3>
+				<ul class="list-of-games">
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-01.png" />
+							Bloons TD 5
+						</a>
+						</div>
+						<div class="col-xs-3 text-right">
+							<span class="text-right list-of-games--rating">8/10</span>
+						</div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-02.png" />
+							Kingdom Rush 
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">7/10</span>
+					  </div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-03.png" />
+							Kingdom Rush Fro...
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">9/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-04.png" />
+							The King's League...  <!-- The King's League...yssey -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">8/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-05.png" />
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">10/10</span>
+					  </div>
+					</li>
+
+
+				</ul>
+			  </div>
+
+			  <div class="col-xs-12 col-md-6">
+				<h3>Adventure</h3>
+
+				<ul class="list-of-games">
+				  <li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-01.png" />
+							Bloons TD 5
+						</a>
+						</div>
+						<div class="col-xs-3 text-right">
+							<span class="text-right list-of-games--rating">8/10</span>
+						</div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-02.png" />
+							Kingdom Rush 
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">7/10</span>
+					  </div>
+					</li>
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-03.png" />
+							Kingdom Rush Fro...
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">9/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-04.png" />
+							The King's League...  <!-- The King's League...yssey -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">8/10</span>
+					  </div>
+					</li>
+					
+					<li class="row">
+					  <div class="col-xs-9">
+						<a href="#">
+							<img src="images/game-icon-05.png" />
+							Cursed Treasure... <!-- Cursed Treasure... Touch My Gems! -->
+						</a>
+					  </div>
+					  <div class="col-xs-3 text-right">
+						<span class="text-right list-of-games--rating">10/10</span>
+					  </div>
+					</li>
+
+				</ul>
+			  </div>
+			</div> <!-- row ends -->
+			
+			
+			
 		</div>
 
-        <div class="col-xs-4">
-          dfd
+        <div class="col-xs-4 visible-lg-block">
+          <h3>Levelingapp is social</h3>
+		  
+			<div class="fb-like-box" data-href="https://www.facebook.com/levelingapp" data-width="286" data-show-faces="true" data-stream="false" data-show-border="false" data-header="false"></div>
+
         </div>
 
 
